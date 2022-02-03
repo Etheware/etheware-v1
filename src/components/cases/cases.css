@@ -1,0 +1,16 @@
+.cases__container {
+    display: flex;
+    object-fit: contain;
+    margin-left: auto;
+    background-color: var(--gradient-bar);
+}
+
+.image {
+    max-width: 100%;
+    height: 100%;
+}
+
+.image  > img {
+    width: 100%;
+    margin: 0 0 0 0;
+}

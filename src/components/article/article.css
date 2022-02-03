@@ -1,0 +1,60 @@
+/* Article Container */
+.blog-container_article {
+    border: 4px solid #23aeeb;
+    margin-top: 1rem;
+    max-width: 800px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background: var(--color-footer);
+}
+
+/* Article Image */
+.blog-container_article-image {
+    background: var(--color-bg);
+    max-width: 40%;
+}
+
+.blog-container_article-image > img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Article Content */
+.blog-container_article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height: 100%;
+}
+/* Article Paragraph */
+.blog-container_article-content > p {
+    font-family: var(--font-family);
+    font-size: 11.65px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #fff;
+}
+/* Article Header */
+.blog-container_article-content > h3 {
+    font-family: var(--font-family);
+    font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.30px;
+    color: #fff;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+/* Article CTA */
+.blog-container_article-content > p {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+    .gpt3__blog-container_article-content h3 {
+        font-size: 18px;
+        line-height: 25p;
+    }
+}

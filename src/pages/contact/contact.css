@@ -1,0 +1,14 @@
+.contact {
+    padding-top: 5rem;
+    align-items: center;
+}
+.header > h1 {
+    text-align: center;
+    width: 100%;
+}
+
+.header > img {
+    object-fit: contain;
+    display: flex;
+    left: 100;
+}
